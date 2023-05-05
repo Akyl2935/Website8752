@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+</head>
+<body>
+    
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src = "css/flight_takeoff_white_24dp.svg" alt = "airplane icon" height = "30" class = "plane1" > GlobalReach</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Postcode" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Check</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Reliable Deliveries</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">GlobalReach is the ultimate choice for delivering goods across the world due to its unparalleled commitment to excellence and its extensive network of logistics solutions.
+         With GlobalReach, you can trust that your shipments will reach their destination efficiently and securely, no matter where in the world they need to go.
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Get a Quote</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 50vh;">
+        <div class="container px-5">
+          <img src="img/plane-delviery.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700"
+            height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+    <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 ">Why The GlobalReach?</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <img src = "css/airplane.svg" height = "30px">          
+      </div>
+            <div>
+              <h3 class="fs-2">Extensive Network: </h3>
+              <p>GlobalReach boasts an extensive network of partners, carriers, and agents across the world. This network allows them to provide comprehensive logistics solutions.</p>
+              <a href="#" class="btn btn-primary">
+                Get a quote
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <img src = "css/upc-scan.svg" height = "30px;">
+            </div>
+            <div>
+              <h3 class="fs-2">Tracking System: </h3>
+              <p>GlobalReach utilizes advanced tracking technology that provides real-time updates on the status and location of shipments. This feature allows customers to track their deliveries.</p>
+              <a href="#" class="btn btn-primary">
+                Get a quote
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+             <img src = "/css/calendar-check.svg" height = "30px">
+            </div>
+            <div>
+              <h3 class="fs-2">Tailored Solutions: </h3>
+              <p>GlobalReach understands that each shipment has unique requirements. They offer customized shipping solutions to meet specific needs, whether it's handling special cargo.</p>
+              <a href="#" class="btn btn-primary">
+                Get a quote
+              </a>
+          </div>
+          </div>
+        </div>
+
+          <section class="bg-secondary bg-secondary text-light p-5">
+            <div class="container">
+              <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0 text-light">Sign-Up For Our Newsletter </h3>
+                  
+            <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+         <button class="btn btn-outline-secondary bg-light" type="button" id="button-addon2">Button</button>
+                 </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+          </div>    
+          
+          <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" 
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src = "/img/delivery_service.jpg" class="d-block w-100" alt="plane delivery">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/Logistics.jpg" class="d-block w-100" alt="air canada">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/air_canada.jpg" class="d-block w-100" alt="delivery plane">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          
+         <section id="service" class="p-5">
+          <div class="container">
+            <h2 class="text-center text-black">Our Company</h2>
+            <p class="lead text-center text-black mb-5">
+              Our Company boasts an extensive track record of 8 years in successfully operating within the global market.
+            </p>
+
+           <div class="row g-4">
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg-gray">
+                  <div class="card-body text-center">
+                   <img src = "https://randomuser.me/api/portraits/men/92.jpg" class = "rounded-circle mb-3">
+                   <h3 class="card-title mb-3">Aiden Fox</h3>
+                   <p class="card-text"> our company is driven by a clear vision and a strong sense of purpose. We are not just here to make profits;
+                     we are here to make a difference. Whether it's through our commitment to sustainable practices, 
+                    community outreach programs, or ethical business conduct.</p>
+                    <a href = "#"><img src = "css/twitter.svg" ></a>
+                    <a href = "#"><img src = "css/facebook.svg"></a>
+                    <a href = "#"><img src = "css/instagram.svg" ></a>
+                    <a href = "#"><img src = "css/linkedin.svg" ></a>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg-gray">
+                  <div class="card-body text-center">
+                   <img src = "https://randomuser.me/api/portraits/women/88.jpg" class = "rounded-circle mb-3">
+                   <h3 class="card-title mb-3">Brianna Wood</h3>
+                   <p class="card-text">Experience personalized solutions to your unique business needs. Whether you're a startup looking for guidance, an established company seeking growth strategies, or an entrepreneur, 
+                   Brianna Wood has the expertise to guide.</p>
+                    <a href = "#"><img src = "css/twitter.svg" > </a>
+                    <a href = "#"><img src = "css/linkedin.svg" ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg-gray">
+                  <div class="card-body text-center">
+                   <img src = "https://randomuser.me/api/portraits/men/72.jpg" class = "rounded-circle mb-3">
+                   <h3 class="card-title mb-3">Garry Elliott</h3>
+                   <p class="card-text">EI highly recommend GlobalReach for all your international shipping needs. Their efficient air shipment 
+                    services ensure timely and secure delivery of goods worldwide. With their reliability and extensive network.</p>
+                    <a href = "#"><img src = "css/facebook.svg"> </a>
+                    <a href = "#"><img src = "css/instagram.svg"> </a>
+                    <a href = "#"><img src = "css/linkedin.svg" > </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg-gray">
+                  <div class="card-body text-center">
+                   <img src = "https://randomuser.me/api/portraits/men/91.jpg" class = "rounded-circle mb-3">
+                   <h3 class="card-title mb-3">Christian Barnes</h3>
+                   <p class="card-text">As a logistics manager specializing in air shipment across America, I confidently recommend GlobalReach. 
+                    Their reliable services, extensive network, 
+                    and commitment to timely delivery make them the trusted choice for all your logistics needs.</p>
+                    <a href = "#"><img src = "css/twitter.svg" > </a>
+                    <a href = "#"><img src = "css/facebook.svg"></a>
+                    <a href = "#"><img src = "css/linkedin.svg" ></a>
+                  </div>
+                </div>
+              </div>
+           </div>
+
+          </div>
+
+         </section>
+
+         <section class="p-5">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-md">
+                <h2 class="text center mb-4">Contact info</h2>
+                <ul class = "list-group list-group-flush lead">
+                  <li class="list-group-item">
+                    <span class="fw-bold">Main Location: </span> 50 Main st Boston MA
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Logistics Service Department: </span> +1(000)12345678
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Our Email: </span> email@email.com
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Support Service Email: </span> 50 Main st Boston MA
+                  </li>
+                  </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map">
+
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+          
+          <div class="container">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+              <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                  </svg>
+                </a>
+                <p class="text-body-secondary">© 2023</p>
+              </div>
+        
+              <div class="col mb-3">
+        
+              </div>
+
+              
+        
+              <div class="col mb-3  ">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+        
+              <div class="col mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+        
+              <div class="col mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+            <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+
+
+          <script>
+          mapboxgl.accessToken = 'pk.eyJ1IjoiYWt5bDI5MzUiLCJhIjoiY2xoYWFlYWZxMGZtZDNkbnNmOTA4Nzk0aiJ9.A1Mx325Jr-lYKh_HVZIMhA';
+            var map = new mapboxgl.Map({
+              container: 'map',
+              style: 'mapbox://styles/mapbox/streets-v11',
+              center: [-71.060982, 42.35725],
+              zoom:18,
+            })
+            </script>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
+
+</body>
+</html>
